@@ -1,0 +1,17 @@
+<form (submit)="onSubmit(emailInput.value, passwordInput.value)">
+    <mat-form-field class="example-full-width">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="youremail@gmail.com" required="true" #emailInput />
+      </mat-form-field>
+    
+    <mat-form-field class="example-full-width">
+        <mat-label>Password</mat-label>
+        <input matInput placeholder="your password" type="password" required="true" #passwordInput/>
+    </mat-form-field>
+    <div>
+        <button mat-raised-button type="reset">Reset</button>
+        <button mat-raised-button color="primary" type="submit">Submit</button>
+    </div>
+
+</form>
+

@@ -1,0 +1,8 @@
+# compiled output 
+dist
+
+# node modules
+node_modules
+
+# private 
+.env
